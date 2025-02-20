@@ -92,4 +92,9 @@ const languages = [
     name: 'French',
     flag: './assets/media/flags/france.svg',
   },
+  {
+    lang: 'sg',
+    name: 'Singapore',
+    flag: './assets/media/flags/singapore.svg',
+  },
 ];

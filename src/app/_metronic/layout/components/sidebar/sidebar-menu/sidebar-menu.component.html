@@ -18,16 +18,18 @@
         <span class="menu-icon">
           <app-keenicon name="switch" class="fs-2"></app-keenicon>
         </span>
-        <span class="menu-title">Layout Builder</span>
+        <span class="menu-title" translate="MENU.LAYOUTBUILDER"></span>
       </a>
     </div>
     <!-- Separator -->
     <div class="menu-item">
-      <div class="menu-content pt-8 pb-2">
-        <span class="menu-section text-muted text-uppercase fs-8 ls-1">Crafted</span>
+      <span class="menu-section" translate="MENU.CRAFTED"></span>
+      <div class="menu-content pt-8 pb-2">        
+        <span class="menu-section text-muted text-uppercase fs-8 ls-1" translate="MENU.CRAFTED"></span>
       </div>
+      
     </div>
-
+    
     <!-- Pages -->
     <div class="menu-item menu-accordion" data-kt-menu-trigger="click" routerLinkActive="here show">
       <span class="menu-link">
@@ -35,7 +37,7 @@
           <app-keenicon name="element-plus" class="fs-2"></app-keenicon>
         </span>
         <span
-          class="menu-title">Pages
+          class="menu-title" translate="MENU.PAGES">
         </span>
         <span class="menu-arrow"></span>
       </span>
@@ -46,11 +48,11 @@
               <span class="bullet bullet-dot"></span>
             </span>
             <span
-              class="menu-title" data-link="/crafted/pages/profile">Profile
+              class="menu-title" data-link="/crafted/pages/profile" translate="MENU.PROFILE"></span>
             </span>
             <span
               class="menu-arrow"></span>
-          </span>
+          
           <div class="menu-sub menu-sub-accordion" routerLinkActive="menu-active-bg">
             <div class="menu-item">
               <a class="menu-link without-sub" routerLinkActive="active"
@@ -59,7 +61,7 @@
                   <span
                     class="bullet bullet-dot"></span>
                 </span>
-                <span class="menu-title">Overview</span>
+                <span class="menu-title" translate="MENU.OVERVIEW"></span>
               </a>
             </div>
             <div class="menu-item">
@@ -69,7 +71,7 @@
                   <span
                     class="bullet bullet-dot"></span>
                 </span>
-                <span class="menu-title">Projects</span>
+                <span class="menu-title" translate="MENU.PROJECTS"></span>
               </a>
             </div>
             <div class="menu-item">
@@ -79,7 +81,7 @@
                   <span
                     class="bullet bullet-dot"></span>
                 </span>
-                <span class="menu-title">Campaigns</span>
+                <span class="menu-title" translate="MENU.CAMPAIGNS"></span>
               </a>
             </div>
             <div class="menu-item">
@@ -89,7 +91,7 @@
                   <span
                     class="bullet bullet-dot"></span>
                 </span>
-                <span class="menu-title">Documents</span>
+                <span class="menu-title" translate="MENU.DOCUMENTS"></span>
               </a>
             </div>
             <div class="menu-item">
@@ -99,7 +101,7 @@
                   <span
                     class="bullet bullet-dot"></span>
                 </span>
-                <span class="menu-title">Connections</span>
+                <span class="menu-title" translate="MENU.CONNECTIONS"></span>
               </a>
             </div>
           </div>
@@ -110,11 +112,10 @@
               <span class="bullet bullet-dot"></span>
             </span>
             <span
-              class="menu-title" data-link="/crafted/pages/wizards">Wizards
+              class="menu-title" data-link="/crafted/pages/wizards" translate="MENU.WIZARDS"></span>
             </span>
             <span
               class="menu-arrow"></span>
-          </span>
           <div class="menu-sub menu-sub-accordion" routerLinkActive="menu-active-bg">
             <div class="menu-item">
               <a class="menu-link without-sub" routerLinkActive="active"
@@ -123,7 +124,7 @@
                   <span
                     class="bullet bullet-dot"></span>
                 </span>
-                <span class="menu-title">Horizontal</span>
+                <span class="menu-title" translate="MENU.HORIZONDAL"></span>
               </a>
             </div>
             <div class="menu-item">
@@ -133,7 +134,7 @@
                   <span
                     class="bullet bullet-dot"></span>
                 </span>
-                <span class="menu-title">Vertical</span>
+                <span class="menu-title" translate="MENU.VERTICAL"></span>
               </a>
             </div>
           </div>
@@ -148,9 +149,10 @@
           <app-keenicon name="profile-circle" class="fs-2"></app-keenicon>
         </span>
         <span class="menu-title"
-              data-link="/crafted/account">Accounts
+              data-link="/crafted/account" translate="MENU.ACCOUNTS">
         </span>
         <span class="menu-arrow"></span>
+        
       </span>
       <div class="menu-sub menu-sub-accordion" routerLinkActive="menu-active-bg">
         <div class="menu-item">
@@ -160,7 +162,7 @@
               <span class="bullet bullet-dot"></span>
             </span>
             <span
-              class="menu-title">Overview
+              class="menu-title" translate="MENU.OVERVIEW">
             </span>
           </a>
         </div>
@@ -171,7 +173,7 @@
               <span class="bullet bullet-dot"></span>
             </span>
             <span
-              class="menu-title">Settings
+              class="menu-title" translate="MENU.SETTINGS">
             </span>
           </a>
         </div>
@@ -184,8 +186,8 @@
         <span class="menu-icon">
           <app-keenicon name="phone" class="fs-2"></app-keenicon>
         </span>
-        <span class="menu-title"
-              data-link="/error">Errors
+        <span class="menu-title" 
+              data-link="/error" translate="MENU.ERRORS">
         </span>
         <span class="menu-arrow"></span>
       </span>
@@ -196,9 +198,7 @@
               class="menu-bullet">
               <span class="bullet bullet-dot"></span>
             </span>
-            <span class="menu-title">Error
-              404
-            </span>
+            <span class="menu-title" translate="MENU.ERROR 404"></span>
           </a>
         </div>
         <div class="menu-item">
@@ -207,9 +207,7 @@
               class="menu-bullet">
               <span class="bullet bullet-dot"></span>
             </span>
-            <span class="menu-title">Error
-              500
-            </span>
+            <span class="menu-title" translate="MENU.ERROR 500"></span>
           </a>
         </div>
       </div>
@@ -222,7 +220,7 @@
           <app-keenicon name="element-7" class="fs-2"></app-keenicon>
         </span>
         <span class="menu-title"
-              data-link="/crafted/widgets">Widgets
+              data-link="/crafted/widgets" translate="MENU.WIDGETS">
         </span>
         <span class="menu-arrow"></span>
       </span>
@@ -234,8 +232,7 @@
               <span class="bullet bullet-dot"></span>
             </span>
             <span
-              class="menu-title">Lists
-            </span>
+              class="menu-title" translate="MENU.LISTS"></span>
           </a>
         </div>
         <div class="menu-item">
@@ -245,8 +242,7 @@
               <span class="bullet bullet-dot"></span>
             </span>
             <span
-              class="menu-title">Statistics
-            </span>
+              class="menu-title" translate="MENU.STATISTICS"></span>
           </a>
         </div>
         <div class="menu-item">
@@ -256,8 +252,7 @@
               <span class="bullet bullet-dot"></span>
             </span>
             <span
-              class="menu-title">Charts
-            </span>
+              class="menu-title" translate="MENU.CHARTS"></span>
           </a>
         </div>
         <div class="menu-item">
@@ -267,8 +262,7 @@
               <span class="bullet bullet-dot"></span>
             </span>
             <span
-              class="menu-title">Mixed
-            </span>
+              class="menu-title" translate="MENU.MIXED"></span>
           </a>
         </div>
         <div class="menu-item">
@@ -278,8 +272,7 @@
               <span class="bullet bullet-dot"></span>
             </span>
             <span
-              class="menu-title">Tables
-            </span>
+              class="menu-title" translate="MENU.TABLES"></span>
           </a>
         </div>
         <div class="menu-item">
@@ -289,9 +282,8 @@
               <span class="bullet bullet-dot"></span>
             </span>
             <span
-              class="menu-title">Feeds
-            </span>
-          </a>
+              class="menu-title" translate="MENU.FEEDS"></span>
+       </a>
         </div>
       </div>
     </div>
@@ -299,7 +291,7 @@
     <!-- Separator -->
     <div class="menu-item">
       <div class="menu-content pt-8 pb-2">
-        <span class="menu-section text-muted text-uppercase fs-8 ls-1">Apps</span>
+        <span class="menu-section text-muted text-uppercase fs-8 ls-1" translate="MENU.LAYOUTBUILDER"></span>
       </div>
     </div>
 
@@ -310,7 +302,7 @@
           <app-keenicon name="message-text-2" class="fs-2"></app-keenicon>
         </span>
         <span class="menu-title"
-              data-link="/apps/chat">Chat
+              data-link="/apps/chat" translate="MENU.CHAT">
         </span>
         <span class="menu-arrow"></span>
       </span>
@@ -321,8 +313,7 @@
               class="menu-bullet">
               <span class="bullet bullet-dot"></span>
             </span>
-            <span class="menu-title">Private Chat
-            </span>
+            <span class="menu-title" translate="MENU.PRIVATE CHAT"></span>
           </a>
         </div>
         <div class="menu-item">
@@ -331,8 +322,7 @@
               class="menu-bullet">
               <span class="bullet bullet-dot"></span>
             </span>
-            <span class="menu-title">Group Chat
-            </span>
+            <span class="menu-title" translate="MENU.GROUP CHAT"></span>
           </a>
         </div>
         <div class="menu-item">
@@ -341,8 +331,7 @@
               class="menu-bullet">
               <span class="bullet bullet-dot"></span>
             </span>
-            <span class="menu-title">Drawer Chat
-            </span>
+            <span class="menu-title" translate="MENU.DRAWER CHAT"></span>
           </a>
         </div>
       </div>
@@ -354,7 +343,7 @@
         <span class="menu-icon">
           <app-keenicon name="profile-user" class="fs-2"></app-keenicon>
         </span>
-        <span class="menu-title" data-link="/apps">User Management
+        <span class="menu-title" data-link="/apps" translate="MENU.USERMANAGEMENT">
         </span>
         <span class="menu-arrow"></span>
       </span>
@@ -365,8 +354,7 @@
               class="menu-bullet">
               <span class="bullet bullet-dot"></span>
             </span>
-            <span class="menu-title">Users
-            </span>
+            <span class="menu-title" translate="MENU.USERS"></span>
           </a>
         </div>
         <div class="menu-item">
@@ -375,8 +363,7 @@
               class="menu-bullet">
               <span class="bullet bullet-dot"></span>
             </span>
-            <span class="menu-title">Roles
-            </span>
+            <span class="menu-title" translate="MENU.ROLES"></span>
           </a>
         </div>
         <div class="menu-item">
@@ -385,8 +372,7 @@
               class="menu-bullet">
               <span class="bullet bullet-dot"></span>
             </span>
-            <span class="menu-title">Permissions
-            </span>
+            <span class="menu-title" translate="MENU.PERMISSIONS"></span>
           </a>
         </div>
       </div>

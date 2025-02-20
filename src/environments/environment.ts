@@ -112,7 +112,7 @@ export const environment = {
 
     demo14: {
       title: 'Demo 14',
-      description: 'Creative Dashboard',
+      description: 'Creative ',
       published: false,
       thumbnail: './assets/media/demos/demo14.png',
     },
